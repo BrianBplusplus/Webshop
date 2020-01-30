@@ -15,9 +15,6 @@ class ShopList extends Component {
     this.props.products.data.map(currentProduct => {
       if (currentProduct.id === id) {
         console.log("on : ", currentProduct.name);
-        return;
-      } else {
-        return;
       }
     });
   };
@@ -26,7 +23,6 @@ class ShopList extends Component {
     const loading = !this.props.products.data.length > 0;
     return (
       <div>
-        <h2>Shop list</h2>
         {loading ? (
           <i id="loadingspinner" className="fas fa-circle-notch"></i>
         ) : (

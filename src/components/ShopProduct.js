@@ -9,12 +9,26 @@ export default class ShopProduct extends Component {
   render() {
     return (
       <ul>
-        <li>{this.props.productname}</li>
-        <li>
-          <img alt={this.props.productname} src={this.props.image} />
-        </li>
-        <li>€{this.props.productprice}</li>
-        <button onClick={this.handleAddToCart}>Add to cart</button>
+        <div className="productbutton">
+          <div className="">
+            <li>
+              <img alt={this.props.productname} src={this.props.image} />
+            </li>
+            <div className="productdivider">
+              <li>{this.props.productname}</li>
+
+              <li>€{this.props.productprice}</li>
+            </div>
+          </div>
+          <div className="buttonstack">
+            <button className="cartbutton" onClick={this.handleAddToCart}>
+              Read More
+            </button>
+            <button className="cartbutton" onClick={this.handleAddToCart}>
+              Add to Cart
+            </button>
+          </div>
+        </div>
       </ul>
     );
   }
