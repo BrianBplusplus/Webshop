@@ -1,7 +1,12 @@
 import React, { Component } from "react";
 
-export default class ShopItem extends Component {
+export default class ShopProduct extends Component {
   render() {
-    return <div>ShopItem</div>;
+    return (
+      <ul>
+        <li>{this.props.productname}</li>
+        <li>{this.props.image}</li>
+      </ul>
+    );
   }
 }

@@ -1,15 +1,15 @@
 import api from "../../api";
 
-export function fetchItem() {
-  return (dispatch, getState) => {
-    api(`/products`).then(product => {
-      dispatch(setPost(product));
-    });
+export function productsFetched(data) {
+  return {
+    type: "products/FETCHED",
+    payload: data
   };
 }
-export function setItem(products) {
-  return {
-    type: "items/FETCHED",
-    payload: products
-  };
+
+export function fetchProducts(dispatch, getState) {
+  api("/products").then(data => {
+    // note: just `dispatch` here now
+    dispatch(productsFetched(data));
+  });
 }
