@@ -11,6 +11,17 @@ class ShopList extends Component {
     });
   };
 
+  addToCart = id => {
+    this.props.products.data.map(currentProduct => {
+      if (currentProduct.id === id) {
+        console.log("on : ", currentProduct.name);
+        return;
+      } else {
+        return;
+      }
+    });
+  };
+
   render() {
     const loading = !this.props.products.data.length > 0;
     return (
@@ -24,9 +35,11 @@ class ShopList extends Component {
               return (
                 <ShopProduct
                   key={currentProduct.id}
+                  id={currentProduct.id}
                   productname={currentProduct.name}
                   image={currentProduct.imageUrl}
                   productprice={currentProduct.price}
+                  addToCart={this.addToCart}
                 />
               );
             })}
