@@ -12,13 +12,12 @@ class ShopList extends Component {
   };
 
   render() {
-    const loading = !this.props.products;
-    console.log("this.props.products", this.props.products);
+    const loading = !this.props.products.data.length > 0;
     return (
       <div>
-        Shop list
+        <h2>Shop list</h2>
         {loading ? (
-          <p>Loading...</p>
+          <i id="loadingspinner" className="fas fa-circle-notch"></i>
         ) : (
           <div className="productlist">
             {this.props.products.data.map(currentProduct => {
@@ -27,6 +26,7 @@ class ShopList extends Component {
                   key={currentProduct.id}
                   productname={currentProduct.name}
                   image={currentProduct.imageUrl}
+                  productprice={currentProduct.price}
                 />
               );
             })}
@@ -45,8 +45,3 @@ function mapStateToProps(reduxState) {
 }
 // ...which is what we export as the default (only) export
 export default connect(mapStateToProps)(ShopList);
-
-// this.props.dispatch({
-//   type: "products/FETCHED",
-//   payload: data
-// })

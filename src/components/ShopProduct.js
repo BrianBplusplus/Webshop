@@ -5,7 +5,10 @@ export default class ShopProduct extends Component {
     return (
       <ul>
         <li>{this.props.productname}</li>
-        <li>{this.props.image}</li>
+        <li>
+          <img alt={this.props.productname} src={this.props.image} />
+        </li>
+        <li>{this.props.productprice}</li>
       </ul>
     );
   }
