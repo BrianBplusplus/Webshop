@@ -11,11 +11,18 @@ class ShopList extends Component {
     });
   };
 
+  addToCart = id => {
+    this.props.products.data.map(currentProduct => {
+      if (currentProduct.id === id) {
+        console.log("on : ", currentProduct.name);
+      }
+    });
+  };
+
   render() {
     const loading = !this.props.products.data.length > 0;
     return (
       <div>
-        <h2>Shop list</h2>
         {loading ? (
           <i id="loadingspinner" className="fas fa-circle-notch"></i>
         ) : (
@@ -24,9 +31,11 @@ class ShopList extends Component {
               return (
                 <ShopProduct
                   key={currentProduct.id}
+                  id={currentProduct.id}
                   productname={currentProduct.name}
                   image={currentProduct.imageUrl}
                   productprice={currentProduct.price}
+                  addToCart={this.addToCart}
                 />
               );
             })}
