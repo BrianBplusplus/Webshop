@@ -1,15 +1,13 @@
-import api from "../../api";
-
-export function productsFetched(data) {
+export function setCart(data) {
   return {
-    type: "products/FETCHED",
+    type: "cart/FETCHED",
     payload: data
   };
 }
 
-export function fetchProducts(dispatch, getState) {
-  api("/products").then(data => {
-    // note: just `dispatch` here now
-    dispatch(productsFetched(data));
-  });
+export function fetchCart(product) {
+  console.log("fetchCart() product name", product.name);
+  return (dispatch, getState) => {
+    dispatch(setCart(product));
+  };
 }

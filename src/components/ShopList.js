@@ -3,6 +3,7 @@ import { connect } from "react-redux";
 import ShopProduct from "./ShopProduct";
 import api from "../api";
 import { fetchProducts } from "../store/shopproducts/action";
+import { fetchCart } from "../store/cart/action";
 
 class ShopList extends Component {
   componentDidMount = () => {
@@ -14,7 +15,7 @@ class ShopList extends Component {
   addToCart = id => {
     this.props.products.data.map(currentProduct => {
       if (currentProduct.id === id) {
-        console.log("on : ", currentProduct.name);
+        return this.props.dispatch(fetchCart(currentProduct));
       }
     });
   };
@@ -47,7 +48,7 @@ class ShopList extends Component {
 }
 
 function mapStateToProps(reduxState) {
-  console.log("REDUX STATE ===", reduxState);
+  //  console.log("REDUX STATE ===", reduxState);
   return {
     products: reduxState.products
   };

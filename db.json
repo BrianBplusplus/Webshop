@@ -2,181 +2,181 @@
   "products": [
     {
       "id": 1,
-      "categoryId": 4,
-      "name": "Product 1",
-      "imageUrl": "https://picsum.photos/400?image=696",
+      "categoryId": 1,
+      "name": "VANS - CHECKERBOARD CLASSIC SLIP-ON",
+      "imageUrl": "https://images.vans.com/is/image/VansEU/VN000EYEBWW-HERO?$COLOR-SWATCH$",
       "inStock": true,
-      "price": "3432"
+      "price": "65"
     },
     {
       "id": 2,
       "categoryId": 1,
-      "name": "Product 2",
-      "imageUrl": "https://picsum.photos/400?image=230",
-      "inStock": false,
-      "price": "2374"
+      "name": "VANS - OLD SKOOL",
+      "imageUrl": "https://images.vans.com/is/image/VansEU/VN000D3HY28-HERO?$COLOR-SWATCH$",
+      "inStock": true,
+      "price": "75"
     },
     {
       "id": 3,
       "categoryId": 4,
-      "name": "Product 3",
-      "imageUrl": "https://picsum.photos/400?image=277",
-      "inStock": false,
-      "price": "1942"
+      "name": "VANS - COMFYCUSH OLD SKOOL",
+      "imageUrl": "https://images.vans.com/is/image/VansEU/VN0A3WMAVNE-HERO?$COLOR-SWATCH$",
+      "inStock": true,
+      "price": "85"
     },
     {
       "id": 4,
-      "categoryId": 3,
-      "name": "Product 4",
-      "imageUrl": "https://picsum.photos/400?image=963",
+      "categoryId": 1,
+      "name": "VANS - AUTHENTIC SCHOENEN VAN VARKENSSUÈDE",
+      "imageUrl": "https://images.vans.com/is/image/VansEU/VN0A2Z5IT75-HERO?$COLOR-SWATCH$",
       "inStock": true,
-      "price": "2367"
+      "price": "40"
     },
     {
       "id": 5,
-      "categoryId": 3,
-      "name": "Product 5",
-      "imageUrl": "https://picsum.photos/400?image=637",
-      "inStock": false,
-      "price": "1991"
+      "categoryId": 1,
+      "name": "VANS - SK8-HI PLATFORM 2.0 SCHOENEN",
+      "imageUrl": "https://images.vans.com/is/image/VansEU/VN0A3TKNQLZ-HERO?$COLOR-SWATCH$",
+      "inStock": true,
+      "price": "90"
     },
     {
       "id": 6,
-      "categoryId": 3,
-      "name": "Product 6",
-      "imageUrl": "https://picsum.photos/400?image=811",
+      "categoryId": 2,
+      "name": "NIKE - NIKE AIR MAX 90",
+      "imageUrl": "https://c.static-nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/llqs2a7mkbsk8idlsttf/air-max-90-shoe-nDppDk.jpg",
       "inStock": true,
-      "price": "1956"
+      "price": "140"
     },
     {
       "id": 7,
       "categoryId": 2,
-      "name": "Product 7",
-      "imageUrl": "https://picsum.photos/400?image=616",
-      "inStock": false,
-      "price": "2005"
+      "name": "NIKE - Nike Mercurial Superfly 7 Pro FG",
+      "imageUrl": "https://c.static-nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/7b96401d-5b6a-4c6e-97e0-6d10f676f075/mercurial-superfly-7-pro-fg-football-boot-xKs4RS.jpg",
+      "inStock": true,
+      "price": "150"
     },
     {
       "id": 8,
-      "categoryId": 4,
-      "name": "Product 8",
-      "imageUrl": "https://picsum.photos/400?image=522",
-      "inStock": false,
-      "price": "1358"
+      "categoryId": 2,
+      "name": "NIKE - Nike Air Max 90 PINK",
+      "imageUrl": "https://c.static-nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/3c049173-6a38-464f-84fb-342f8b9d2eb8/air-max-90-shoe-nDppDk.jpg",
+      "inStock": true,
+      "price": "140"
     },
     {
       "id": 9,
-      "categoryId": 3,
-      "name": "Product 9",
-      "imageUrl": "https://picsum.photos/400?image=615",
-      "inStock": false,
-      "price": "2345"
+      "categoryId": 2,
+      "name": "NIKE - Nike Phantom Vision 2 Academy Dynamic Fit IC",
+      "imageUrl": "https://c.static-nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/18d18d97-e944-41b3-b951-f97fbfc6e590/phantom-vision-2-academy-dynamic-fit-ic-indoor-court-football-shoe-dHlZZD.jpg",
+      "inStock": true,
+      "price": "90"
     },
     {
       "id": 10,
-      "categoryId": 1,
-      "name": "Product 10",
-      "imageUrl": "https://picsum.photos/400?image=601",
-      "inStock": false,
-      "price": "1823"
+      "categoryId": 2,
+      "name": "Nike Tiempo Legend 8 Academy IC",
+      "imageUrl": "https://c.static-nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/1985614a-6e88-4bcf-ada6-56b909e8b6d7/tiempo-legend-8-academy-ic-indoor-court-football-shoe-0jD49j.jpg",
+      "inStock": true,
+      "price": "70"
     },
     {
       "id": 11,
-      "categoryId": 1,
-      "name": "Product 11",
-      "imageUrl": "https://picsum.photos/400?image=314",
+      "categoryId": 3,
+      "name": "ADIDAS - NMD_R1 SHOES",
+      "imageUrl": "https://assets.adidas.com/images/w_840,h_840,f_auto,q_auto:sensitive,fl_lossy/b4375350e6c3414d941baabf01045124_9366/NMD_R1_Shoes_Green_EE5087_01_standard.jpg",
       "inStock": true,
-      "price": "1752"
+      "price": "130"
     },
     {
       "id": 12,
-      "categoryId": 4,
-      "name": "Product 12",
-      "imageUrl": "https://picsum.photos/400?image=442",
+      "categoryId": 3,
+      "name": "ADIDAS - SUPERSTAR SHOES",
+      "imageUrl": "https://assets.adidas.com/images/w_840,h_840,f_auto,q_auto:sensitive,fl_lossy/4e894c2b76dd4c8e9013aafc016047af_9366/Superstar_Shoes_White_FV3284_01_standard.jpg",
       "inStock": true,
-      "price": "2196"
+      "price": "80"
     },
     {
       "id": 13,
-      "categoryId": 4,
-      "name": "Product 13",
-      "imageUrl": "https://picsum.photos/400?image=338",
+      "categoryId": 3,
+      "name": "ADIDAS - LITE RACER ADAPT SHOES",
+      "imageUrl": "https://assets.adidas.com/images/w_840,h_840,f_auto,q_auto:sensitive,fl_lossy/d91e8468fa064fe1aac3ab1900de0673_9366/Lite_Racer_Adapt_Shoes_Black_FV8600_01_standard.jpg",
       "inStock": true,
-      "price": "3276"
+      "price": "65"
     },
     {
       "id": 14,
-      "categoryId": 4,
-      "name": "Product 14",
-      "imageUrl": "https://picsum.photos/400?image=739",
-      "inStock": false,
-      "price": "1454"
+      "categoryId": 3,
+      "name": "ADIDAS - EDGE LUX 3 SHOES",
+      "imageUrl": "https://assets.adidas.com/images/w_840,h_840,f_auto,q_auto:sensitive,fl_lossy/ab00e4f582634669b153aaa4010291fb_9366/Edge_Lux_3_Shoes_Grey_FV8577_01_standard.jpg",
+      "inStock": true,
+      "price": "85"
     },
     {
       "id": 15,
-      "categoryId": 4,
-      "name": "Product 15",
-      "imageUrl": "https://picsum.photos/400?image=901",
-      "inStock": false,
-      "price": "1368"
+      "categoryId": 3,
+      "name": "ADIDAS - DISNEY MICKEY MOUSE SUPERSTAR SHOES",
+      "imageUrl": "https://assets.adidas.com/images/w_840,h_840,f_auto,q_auto:sensitive,fl_lossy/f3e620d5cc9b4101b796ab1800a6a85c_9366/Disney_Mickey_Mouse_Superstar_Shoes_White_FW2901_01_standard.jpg",
+      "inStock": true,
+      "price": "120"
     },
     {
       "id": 16,
-      "categoryId": 3,
-      "name": "Product 16",
-      "imageUrl": "https://picsum.photos/400?image=372",
-      "inStock": false,
-      "price": "2087"
+      "categoryId": 4,
+      "name": "VANS - DROP V STRIPE CUFF BEANIE",
+      "imageUrl": "https://images.vans.com/is/image/VansEU/VN0A3I5OLKZ-HERO?$COLOR-SWATCH$",
+      "inStock": true,
+      "price": "14"
     },
     {
       "id": 17,
-      "categoryId": 1,
-      "name": "Product 17",
-      "imageUrl": "https://picsum.photos/400?image=264",
+      "categoryId": 4,
+      "name": "Vans - BAIL SCHOUDERTAS",
+      "imageUrl": "https://images.vans.com/is/image/VansEU/VN0A3I5SCLR-HERO?$COLOR-SWATCH$",
       "inStock": true,
-      "price": "2523"
+      "price": "15"
     },
     {
       "id": 18,
-      "categoryId": 1,
-      "name": "Product 18",
-      "imageUrl": "https://picsum.photos/400?image=133",
+      "categoryId": 4,
+      "name": "VANS - BOLT ACTION CREW SOKS (1 PAIR)",
+      "imageUrl": "https://images.vans.com/is/image/VansEU/VN0A45DNBLK-HERO?$COLOR-SWATCH$",
       "inStock": true,
-      "price": "1118"
+      "price": "6"
     },
     {
       "id": 19,
-      "categoryId": 2,
-      "name": "Product 19",
-      "imageUrl": "https://picsum.photos/400?image=359",
-      "inStock": false,
-      "price": "1966"
+      "categoryId": 4,
+      "name": "ADIDAS - COMFORT SANDALS",
+      "imageUrl": "https://assets.adidas.com/images/w_840,h_840,f_auto,q_auto:sensitive,fl_lossy/fc43b8074cd64a8a8824aafe01097de1_9366/Comfort_Sandals_Black_EG6514_01_standard.jpg",
+      "inStock": true,
+      "price": "45"
     },
     {
       "id": 20,
-      "categoryId": 1,
-      "name": "Product 20",
-      "imageUrl": "https://picsum.photos/400?image=354",
-      "inStock": false,
-      "price": "2569"
+      "categoryId": 4,
+      "name": "ADIDAS - PERSISTAR FIT UNMIRRORED GOGGLES",
+      "imageUrl": "https://assets.adidas.com/images/w_840,h_840,f_auto,q_auto:sensitive,fl_lossy/d4696a16aa7c4c7e85aaa76d00ba61f6_9366/Persistar_Fit_Unmirrored_Goggles_Grey_BR1059_01_standard.jpg",
+      "inStock": true,
+      "price": "18"
     }
   ],
   "categories": [
     {
       "id": 1,
-      "name": "Category 1"
+      "name": "Vans"
     },
     {
       "id": 2,
-      "name": "Category 2"
+      "name": "Nike"
     },
     {
       "id": 3,
-      "name": "Category 3"
+      "name": "Adidas"
     },
     {
       "id": 4,
-      "name": "Category 4"
+      "name": "Extra"
     }
   ]
 }
