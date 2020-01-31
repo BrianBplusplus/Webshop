@@ -70,6 +70,13 @@ html {
   padding-bottom: 2em;
 }
 
+.productbuttoncart {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  position: relative;
+}
+
 .cartbutton {
   color: #fff;
   background-color: #ff0000;

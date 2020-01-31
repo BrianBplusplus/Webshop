@@ -15,8 +15,9 @@ class ShopList extends Component {
   addToCart = id => {
     this.props.products.data.map(currentProduct => {
       if (currentProduct.id === id) {
-        return this.props.dispatch(fetchCart(currentProduct));
+        this.props.dispatch(fetchCart(currentProduct));
       }
+      return []; //returning an empty array prevents a warning in the console
     });
   };
 
@@ -53,5 +54,5 @@ function mapStateToProps(reduxState) {
     products: reduxState.products
   };
 }
-// ...which is what we export as the default (only) export
+
 export default connect(mapStateToProps)(ShopList);
