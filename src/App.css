@@ -1,27 +1,14 @@
 @import url("https://fonts.googleapis.com/css?family=Bebas+Neue|Roboto&display=swap");
 
-* {
-  text-align: center;
-}
-
-ul {
-  list-style: none;
-  padding: 0;
-  display: flex;
-  justify-content: space-between;
-  border: solid;
-  border-color: red;
-  background-color: white;
-  width: 45%;
-}
-
 img {
   max-width: 100px;
+  max-height: 100px;
 }
 
 html {
   font-family: "Roboto", sans-serif;
   background-color: #dedede;
+  text-align: center;
 }
 
 .App {
@@ -42,10 +29,23 @@ html {
   animation: rotation 0.4s infinite linear;
 }
 
+.shoplist {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  border: solid;
+  border-color: red;
+  background-color: white;
+  width: 45%;
+  box-shadow: 5px 5px 9px grey;
+}
+
 .productlist {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  padding-bottom: 6em;
 }
 
 .productdivider {
@@ -54,13 +54,20 @@ html {
   padding: 1em;
 }
 
+/*----- Buttons -----*/
+.buttonstack {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
 .productbutton {
   display: flex;
   flex-direction: column;
   width: 100%;
-}
-.buttonstack {
-  display: flex;
+  position: relative;
+  padding-bottom: 2em;
 }
 
 .cartbutton {
@@ -69,13 +76,15 @@ html {
   font-size: 25px;
   padding: 0.3em;
   width: 100%;
+  border: none;
 }
 
 .cartbutton:hover {
   color: #ff0000;
-  background-color: #ffffff;
+  background-color: #dedede;
 }
 
+/*----- Header/Footer ------*/
 .topbar,
 .bottombar {
   font-family: "Bebas Neue", cursive;
@@ -106,6 +115,12 @@ html {
 .fas {
   color: #fff;
   font-size: 26px;
+}
+
+@media only screen and (max-width: 724px) {
+  .shoplist {
+    width: 80%;
+  }
 }
 
 @keyframes rotation {

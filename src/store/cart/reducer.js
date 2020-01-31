@@ -1,12 +1,12 @@
-const initialState = { cart: [] };
+const initialState = { data: [] };
 
 export default function reducer(state = initialState, action) {
   switch (action.type) {
-    case "products/FETCHED": {
+    case "cart/FETCHED": {
       // => Ask yourself: what is action.payload?
       return {
         ...state,
-        data: action.payload
+        data: [...state.data, action.payload]
       };
     }
     default: {

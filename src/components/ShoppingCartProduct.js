@@ -1,10 +1,6 @@
 import React, { Component } from "react";
 
-export default class ShopProduct extends Component {
-  handleAddToCart = () => {
-    this.props.addToCart(this.props.id);
-  };
-
+export default class ShoppingCartProduct extends Component {
   render() {
     return (
       <ul className="shoplist">
@@ -18,12 +14,6 @@ export default class ShopProduct extends Component {
 
               <li>€{this.props.productprice}</li>
             </div>
-          </div>
-          <div className="buttonstack">
-            <button className="cartbutton">Read More</button>
-            <button className="cartbutton" onClick={this.handleAddToCart}>
-              Add to Cart
-            </button>
           </div>
         </div>
       </ul>
